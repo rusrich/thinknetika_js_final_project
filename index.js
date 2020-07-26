@@ -72,6 +72,7 @@ function getReposInfo(event) {
         console.log(data)
         const countRepos = data.length
         const issuesBlock = document.getElementById('issues')
+        issuesBlock.innerHTML = ''
         for (let i = 0; i < countRepos; i++) {
           const elIssue = document.createElement('div')
           elIssue.setAttribute('id', 'issue')
