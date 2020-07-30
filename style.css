@@ -13,7 +13,6 @@ button {
 
 #main {
     max-width: 1000px;
-    margin: 0 auto;
     border: grey 1px solid;
     background: white;
 }
@@ -34,6 +33,7 @@ button {
     border-bottom: #333333 1px solid;
     margin: 30px 0 10px;
 }
+
 #info-block {
     font-size: 12px;
     color: grey;
@@ -53,12 +53,6 @@ button {
     display: block;
     padding: 5px 20px 5px 0;
 }
-
-/*#info-bl.span {*/
-/*    font-size: 10px;*/
-/*    display: block;*/
-/*    color: #333333;*/
-/*}*/
 
 #number-issue {
     width: 50px;
@@ -99,4 +93,19 @@ img {
     height: 120px;
     float: left;
     margin-right: 30px;
+}
+
+#user-info {
+    margin-top: 20px;
+    display: block;
+}
+
+#warning {
+    max-width: 960px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: lightpink;
+    color: #222222;
+    transition: 1s;
+    display: none;
 }
